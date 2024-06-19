@@ -1,19 +1,10 @@
-import dynamic from 'next/dynamic';
-import Image from 'next/image';
-import clsx from 'clsx';
-import {
-  logoLi,
-  logoZeekr,
-  logoXpeng,
-  logoAvatr,
-  logoVoyah,
-  logoAito,
-  logoGac,
-  logoGeely,
-} from '@/icons';
-import { info1, info2, info3 } from '@/images';
-import { FormCall } from '@/components';
-import styles from './page.module.scss';
+import dynamic from "next/dynamic";
+import Image from "next/image";
+import clsx from "clsx";
+
+import { info1, info2, info3 } from "@/images";
+import { FormCall } from "@/components";
+import styles from "./page.module.scss";
 
 export default function Home() {
   return (
@@ -37,12 +28,6 @@ export default function Home() {
         <div className={clsx(styles.heroBrands)}>
           <div className="container fr fr-sb">
             {/* <Image src={logoXpeng} alt="logoCar" width={120} /> */}
-            <Image src={logoZeekr} alt="logoCar" width={50} />
-            <Image src={logoAvatr} alt="logoCar" width={40} />
-            <Image src={logoVoyah} alt="logoCar" width={50} />
-            <Image src={logoAito} alt="logoCar" width={30} />
-            <Image src={logoGeely} alt="logoCar" width={80} />
-            <Image src={logoLi} alt="logoCar" width={90} />
           </div>
         </div>
         <div className="container">

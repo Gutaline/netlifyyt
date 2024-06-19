@@ -1,10 +1,9 @@
-﻿'use client';
-import Image from 'next/image';
-import { AppLink, AppLinkTheme, Button } from '@/components';
-import { carColor, carEngine, carPrivod, carSpeed } from '@/icons';
-import clsx from 'clsx';
-import styles from './Card.module.scss';
-import { ICarData } from 'constants/cars';
+﻿"use client";
+import Image from "next/image";
+import { AppLink, AppLinkTheme, Button } from "@/components";
+import clsx from "clsx";
+import styles from "./Card.module.scss";
+import { ICarData } from "constants/cars";
 
 export const Card = ({
   carData,
@@ -28,11 +27,11 @@ export const Card = ({
     image,
   } = carData;
 
-  const isLiCar = icon.src.includes('li');
-  const isAvatrCar = icon.src.includes('avatr');
-  const isAitoCar = icon.src.includes('aito');
-  const isGeelyCar = icon.src.includes('geely');
-  const isGacCar = icon.src.includes('gac');
+  const isLiCar = icon.src.includes("li");
+  const isAvatrCar = icon.src.includes("avatr");
+  const isAitoCar = icon.src.includes("aito");
+  const isGeelyCar = icon.src.includes("geely");
+  const isGacCar = icon.src.includes("gac");
 
   return (
     <div className={styles.card}>
@@ -63,38 +62,18 @@ export const Card = ({
             <p>{price} р.</p>
           </div>
           <div className={styles.speed}>
-            <Image
-              src={carSpeed}
-              alt={`${carSpeed} icon`}
-              className={styles.detailsIcon}
-            />
             <p>
               разгон до 100 км/ч <br></br>
               {speed}
             </p>
           </div>
           <div className={styles.privod}>
-            <Image
-              src={carPrivod}
-              alt={`${carPrivod} icon`}
-              className={styles.detailsIcon}
-            />
             <p>{privod}</p>
           </div>
           <div className={styles.engine}>
-            <Image
-              src={carEngine}
-              alt={`${carEngine} icon`}
-              className={styles.detailsIcon}
-            />
             <p className={styles.engine}>{engine}</p>
           </div>
           <div className={styles.colors}>
-            <Image
-              src={carColor}
-              alt={`${model} icon`}
-              className={styles.detailsIcon}
-            />
             <ul className={styles.colors}>
               {color.map((c: string, index: number) => (
                 <li key={index} className={styles.color}>
