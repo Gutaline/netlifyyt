@@ -1,0 +1,47 @@
+.nav {
+  position: fixed;
+  z-index: 30;
+  width: 100%;
+  height: var(--height-navbar);
+  padding: 10px 0;
+  background: rgb(10 12 12 / 70%);
+  font-family: var(--ff-extrabold);
+}
+
+.navLogo {
+  display: inline-block;
+  width: auto;
+  height: auto;
+
+  img {
+    width: 100px;
+    height: auto;
+  }
+}
+
+.navLink {
+  margin-right: 40px;
+  color: white;
+  font-size: var(--font-reg);
+  text-transform: uppercase;
+  transition: all 0.7s ease;
+
+  &.active {
+    color: var(--orange);
+  }
+
+  &:hover {
+    color: var(--orange);
+  }
+}
+
+.navPhone {
+  display: block;
+}
+
+.navText {
+  margin-top: 10px;
+  color: white;
+  font-family: var(--ff-light);
+  font-size: var(--font-tiny);
+}

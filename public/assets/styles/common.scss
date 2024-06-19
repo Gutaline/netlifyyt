@@ -1,0 +1,38 @@
+.line {
+  width: 2px;
+  height: 120px;
+  margin: 60px auto;
+  background: black;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+}
+
+// @include media_lg {
+//   .title {
+//     font-size: 36px;
+//     line-height: 44px;
+//   }
+
+//   .line {
+//     height: 90px;
+//     width: 2px;
+//     margin: 45px auto;
+//   }
+// }
+
+// @include media_sm {
+//   .title {
+//     font-size: 24px;
+//     line-height: 29px;
+//   }
+
+//   .line {
+//     height: 60px;
+//     width: 1px;
+//     margin: 30px auto;
+//   }
+// }

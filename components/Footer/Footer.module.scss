@@ -1,0 +1,50 @@
+﻿.footer {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  background: rgb(10 12 12);
+  color: white;
+  font-family: var(--ff-light);
+  font-size: var(--font-sml);
+  text-align: center;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerContentItem {
+  width: 30%;
+
+  &:last-child {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.footerLogo {
+  width: 50px;
+  height: auto;
+}
+
+.footerAddress {
+  a {
+    display: block;
+    margin: 0.5rem 0;
+    transition: all 0.7s ease;
+
+    &:hover {
+      color: var(--orange);
+    }
+  }
+}
+
+.footerAddress:last-child {
+  margin-top: 2rem;
+}
+
+.footerCopyright {
+  font-family: var(--ff-extralight);
+  font-size: var(--font-tiny);
+  text-align: center;
+}

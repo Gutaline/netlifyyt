@@ -1,0 +1,24 @@
+{
+  "extends": [
+    "stylelint-config-idiomatic-order",
+    "stylelint-config-standard-scss"
+  ],
+  "rules": {
+    "property-no-vendor-prefix": null,
+    "font-family-name-quotes": "always-unless-keyword",
+    "value-no-vendor-prefix": null,
+    "value-keyword-case": null,
+    "no-descending-specificity": null,
+    "selector-class-pattern": null,
+    "selector-max-id": null,
+    "number-max-precision": null,
+    "keyframes-name-pattern": null,
+    "keyframe-block-no-duplicate-selectors": null,
+    "selector-pseudo-class-no-unknown": [
+      true,
+      { "ignorePseudoClasses": ["global"] }
+    ],
+    "max-nesting-depth": [4, { "ignore": ["pseudo-classes"] }]
+  },
+  "ignoreFiles": ["**/*.tsx"]
+}

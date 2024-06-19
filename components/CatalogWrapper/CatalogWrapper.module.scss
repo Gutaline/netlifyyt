@@ -1,0 +1,30 @@
+﻿.catalog {
+  flex: 1 1 auto;
+  padding: 50px 0;
+  margin-top: var(--height-navbar);
+}
+
+.carsWrapper {
+  flex-wrap: wrap;
+  row-gap: 1rem;
+}
+
+.modal {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  inset: 0;
+}
+
+.modalOverlay {
+  position: absolute;
+  background-color: rgb(19 19 19 / 60%);
+  inset: 0;
+}
+
+.notInStock {
+  font-family: var(--ff-med);
+  font-size: var(--font-med);
+  text-align: center;
+}

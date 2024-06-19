@@ -1,0 +1,43 @@
+﻿p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+html.no-scroll {
+  overflow: hidden;
+  height: 100%;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+button {
+  outline: none;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+svg {
+  pointer-events: none;
+}
+
+img {
+  width: 100%;
+}

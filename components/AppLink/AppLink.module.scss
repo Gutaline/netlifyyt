@@ -1,0 +1,30 @@
+﻿.dark {
+  border: none;
+  background-color: var(--orange);
+
+  &:hover {
+    background: var(--med-orange);
+  }
+}
+
+.light {
+  border: 1.5px solid var(--orange);
+  margin-right: 20px;
+  background-color: var(--light-grey);
+
+  &:hover {
+    background: white;
+  }
+}
+
+.appLink {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: black;
+  cursor: pointer;
+  font-family: var(--ff-reg);
+  font-size: var(--font-sml);
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}

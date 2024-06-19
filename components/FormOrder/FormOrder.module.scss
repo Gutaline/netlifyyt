@@ -1,0 +1,45 @@
+﻿.form {
+  position: absolute;
+  display: flex;
+  width: 20%;
+  max-width: 500px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 5rem auto;
+  background-color: var(--light-grey);
+}
+
+.formHeading {
+  margin-bottom: 10px;
+  font-family: var(--ff-semibold);
+  font-size: var(--font-med);
+  text-align: center;
+}
+
+.form label {
+  width: 50%;
+  margin-bottom: 10px;
+  font-family: var(--ff-extralight);
+  font-size: var(--font-reg);
+  text-align: center;
+}
+
+.form input[type='tel'] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: var(--ff-extralight);
+  font-size: var(--font-sml);
+  transition: border-color 0.3s ease;
+}
+
+.form input[type='tel']:focus {
+  border-color: var(--orange); /* Change to your desired focus color */
+  outline: none;
+}

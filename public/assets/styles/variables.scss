@@ -1,0 +1,33 @@
+:root {
+  // fonts
+  --ff-black: 'Unbounded-Black', sans-serif;
+  --ff-extrabold: 'Unbounded-ExtraBold', sans-serif;
+  --ff-bold: 'Unbounded-Bold', sans-serif;
+  --ff-semibold: 'Unbounded-SemiBold', sans-serif;
+  --ff-med: 'Unbounded-Medium', sans-serif;
+  --ff-reg: 'Unbounded-Regular', sans-serif;
+  --ff-light: 'Unbounded-Light', sans-serif;
+  --ff-extralight: 'Unbounded-ExtraLight', sans-serif;
+
+  // fonts sizes
+  --font-xxl: 3.975rem;
+  --font-xl: 3rem;
+  --font-lg: 2rem;
+  --font-med: 1.25rem;
+  --font-reg: 1rem;
+  --font-sml: 0.85rem;
+  --font-tiny: 0.785rem;
+
+  // dimensions
+  --height-navbar: 85px;
+  --sidebar-width: 300px;
+  --sidebar-collapsed-width: 80px;
+
+  // colors
+  --orange: #feac01;
+  --med-orange: #e29d09;
+  --dark-orange: #e63e12;
+  --light-grey: #f2f2f2;
+  --med-gray: rgb(123 123 124 / 50%);
+  --dark-gray: rgb(53 54 58);
+}

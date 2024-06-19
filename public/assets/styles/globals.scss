@@ -1,0 +1,47 @@
+html {
+  height: 100%;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+}
+
+// @include media_xl {
+//   html {
+//     font-size: 13px;
+//   }
+// }
+
+// @include media_lg {
+//   html {
+//     font-size: 12px;
+//   }
+// }
+
+// @include media_md {
+//   html {
+//     font-size: 12px;
+//   }
+// }
+
+// @include media_sm {
+//   html {
+//     font-size: 12px;
+//   }
+// }
+
+// @include media_xs {
+//   html {
+//     font-size: 12px;
+//   }
+// }
+
+// @include media_mob {
+//   html {
+//     font-size: 12px;
+//   }
+// }

@@ -1,0 +1,45 @@
+.container-base {
+  overflow: hidden;
+  width: 100%;
+  padding-top: var(--nav-height);
+  margin: 0 auto;
+}
+
+.container {
+  position: relative;
+  max-width: 1320px;
+  height: 100%;
+  padding: 0 0.625rem;
+  margin: 0 auto;
+}
+
+// Flexbox
+.fc {
+  display: flex;
+  flex-direction: column;
+
+  &-sb {
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &-center {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.fr {
+  display: flex;
+  flex-direction: row;
+
+  &-sb {
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &-center {
+    align-items: center;
+    justify-content: center;
+  }
+}
