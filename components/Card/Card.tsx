@@ -27,27 +27,16 @@ export const Card = ({
     image,
   } = carData;
 
-  const isLiCar = icon.src.includes("li");
-  const isAvatrCar = icon.src.includes("avatr");
-  const isAitoCar = icon.src.includes("aito");
-  const isGeelyCar = icon.src.includes("geely");
-  const isGacCar = icon.src.includes("gac");
+  const isLiCar = false;
+  const isAvatrCar = false;
+  const isAitoCar = false;
+  const isGeelyCar = false;
+  const isGacCar = false;
 
   return (
     <div className={styles.card}>
       <div className={styles.cardHeader}>
         <div className={styles.brand}>
-          <Image
-            src={icon}
-            alt={`${model} icon`}
-            className={clsx(styles.brandIcon, {
-              [styles.brandIconLi]: isLiCar,
-              [styles.brandIconAvatr]: isAvatrCar,
-              [styles.brandIconAito]: isAitoCar,
-              [styles.brandIconGeely]: isGeelyCar,
-              [styles.brandIconGac]: isGacCar,
-            })}
-          />
           <div className={styles.brandDetails}>
             <h2 className={styles.model}>{model}</h2>
             <p className={styles.type}>{type}</p>
